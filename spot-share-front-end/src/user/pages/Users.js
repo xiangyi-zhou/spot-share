@@ -7,7 +7,7 @@ const Users = () => {
     [{
         id: 'ul', 
         name: 'Max Schwarz', 
-        image: 'https://www.pexels.com/photo/sea-landscape-sunset-beach-16619351/',
+        image: 'https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg',
         places: 3
     }];
     return <UsersList items={USERS}/>;
