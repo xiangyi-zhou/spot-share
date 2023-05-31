@@ -1,2 +1,6 @@
 # Spot-Share
-a MERN full stack project
+A MERN full stack project
+
+## Built With
+- HTML，CSS，JavaScript
+- MERN: MongoDB, Express, React and Node.js
