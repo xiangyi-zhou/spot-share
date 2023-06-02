@@ -32,9 +32,6 @@ const getPlaceById = (req, res, next) => {
   res.json({ place }); // => { place } => { place: place }
 };
 
-// function getPlaceById() { ... }
-// const getPlaceById = function() { ... }
-
 const getPlacesByUserId = (req, res, next) => {
   const userId = req.params.uid;
 
@@ -68,7 +65,6 @@ const createPlace = async (req, res, next) => {
     return next(error);
   }
 
-  // const title = req.body.title;
   const createdPlace = {
     id: uuid(),
     title,
